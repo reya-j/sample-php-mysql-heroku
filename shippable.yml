@@ -1,6 +1,9 @@
 language: php
 build_image: drydock/u14phpall:tip
 
+services:
+  - mysql
+
 php: 
   - 5.4
   - 5.5
